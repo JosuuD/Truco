@@ -1,0 +1,63 @@
+body{
+  background: green;
+
+}
+header{
+  border:solid;
+  border-radius: 3px;
+  height: 100px;
+  text-align: center;
+  display: block;
+  vertical-align: middle;
+  font-size: 50px;
+  background: rgba(255,255,255,0.5)
+}
+.manoMia{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.manoAjena{
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.carta{
+  align-self: center;
+  background: white;
+  height: 150px;
+  width: 100px;
+  border: solid;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  margin: 10px;
+  transition: background .5s;
+}
+
+.carta:hover{
+  background: yellow;
+}
+
+.carta:active{
+  border-width: 5px;
+  font-size: 18px;
+  padding: 5px
+}
+
+.cartaOculta{
+  align-self: center;
+  color:white;
+  background: black;
+  height: 150px;
+  width: 100px;
+  border: solid;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  margin: 10px;
+  transition: background .5s;
+}
